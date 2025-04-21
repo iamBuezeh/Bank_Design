@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.containner{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.nav_cont{
+    width:100%;
+    height: 70px;
+    display: flex;
+    background-color: rgba(185, 175, 175, 0.568);
+    padding-top: 1.5rem;
+}
+
+.Welcome_comment{
+    width: 30%;
+    padding-left: 20px;
+}
+
+.Reg_form{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50rem;
+}
+
+.my_input{
+    width: 17%;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 5px 5px;
+    text-align: center;
+   
+}
+
+.input{
+    outline: 0px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 1.5rem;
+   padding-top: 1px;
+
+}
+
+
+.my_button{
+    width: 6%;
+    height: 28px;
+    padding-top: 3px;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color:white;
+    border-radius: 10px 10px;
+}
+
+.login_button {
+   font-size: 15px;
+   padding-top: 1px;
+   border: none;
+   outline: none;
+   background-color: transparent;
+   
+}
+
+.body_containner{
+    width: 100%;
+    height: 700px;
+ 
+   
+}
+.withdrawal{
+    background-color: darkred;
+    font-size: 13px;
+    color:white;
+}
+.badge{
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.balance_side{
+    width: 75%;
+    display: flex;
+    margin-left: 15rem;
+    padding-top: 50px;
+   
+}
+
+
+.balance{
+    width: 50%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.balanceAmount{
+    width: 50%;
+    font-size: 2.2rem;
+    padding-left: 0px;
+}
+
+.transaction_side{
+    width: 80%;
+    display: flex;
+    margin-left: 9rem;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.history{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid whitesmoke;
+}
+
+
+.transaction_withdraw{
+    width: 85%;
+    height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    margin: 30px;
+    border: 1px solid rgb(209, 192, 192);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+.transaction_deposit{
+    width: 85%;
+    height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    margin: 30px;
+    border: 1px solid rgb(209, 192, 192);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+.deposit{
+    width: 15%;
+    height: 23px;
+    background-color: rgb(54, 153, 54);
+    border-radius: 10px 10px;
+    text-align: center;
+}
+
+.withdrawal{
+    width: 20%;
+    height: 23px;
+    background-color: rgb(235, 68, 68);
+    border-radius: 15px 15px;
+    text-align: center;
+
+}
+
+.transaction{
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+.transaction_moethod{
+    width: 100%;
+    height: 150px;
+    padding: 30px 50px;
+    background-color: rgb(248, 132, 37);
+    border-radius: 10px 10px;
+}
+
+
+.transaction_moethod2{
+    width: 100%;
+    height: 150px;
+    padding: 30px 50px;
+    background-color: rgb(38, 182, 50);
+    border-radius: 10px 10px;
+}
+
+
+.transaction_moethod3{
+    width: 100%;
+    height: 150px;
+    padding: 30px 50px;
+    background-color: rgb(235, 68, 68);
+    border-radius: 10px 10px;
+}
+
+.txn_comment{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.txn_input{
+    display: flex;
+    gap: 15px;
+}
+
+.transfer_button{
+    outline: none;
+    border: 0px;
+    padding-top: 6.5px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+
+.loan_button{
+    outline: none;
+    border: 0px;
+    padding-top: 6.5px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+
+.withrawal_button {
+    outline: none;
+    border: 0px;
+    padding-top: 6.5px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+
+.first_input{
+    width: 30%;
+    height: 28px;
+    margin-top: 9px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px 10px;
+}
+
+.inp_space{
+    outline: none;
+    border: 0px;
+    padding-top: 6.5px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+
+.first_button{
+    width: 10%;
+    height: 28px;
+    margin-top: 9px;
+    overflow: hidden;
+    background-color:whitesmoke;
+    border-radius: 10px 10px;
+}
+
+.down_comment{
+    display: flex;
+    padding-top: 5px;
+}
+
+.transfer_to{
+    width: 100px;
+    padding-left: 5px;
+}
+
+.amount_to{
+    padding-left: 55px;
+}
+
+.money_movement_cont{
+    width: 30%;
+    height: 30px;
+    margin-left: 10rem;
+    padding-top: 5px;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.income{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
